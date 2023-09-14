@@ -13,7 +13,7 @@ public class Main {
         for (String nombre : listaNombres) {
             System.out.println(nombre);
         }
-        */
+
 
         int [][] numeros = new int[2][2];
         numeros[0][0] = 1;
@@ -32,6 +32,9 @@ public class Main {
         numeros2[1] = new int [3];
         numeros2[2] = new int [5];
 
+        */
+
+
         /*numeros2[0][0] = 1;
         numeros2[0][1] = 2;
         numeros2[1][0] = 3;
@@ -42,7 +45,7 @@ public class Main {
             for (int numero : numeros[i]){
                 System.out.print(numero);
             }
-        }*/
+        }
 
 
         int valor = 0;
@@ -54,7 +57,18 @@ public class Main {
                 System.out.print(numero+" ");
             }
             System.out.println(" ");
-        }
+        }*/
+        System.out.println(Perro.cantidadDePerros);
+        Perro perro1 = new Perro("claudio");
+        System.out.println(Perro.cantidadDePerros);
+        Perro perro2 = new Perro("pepe");
+        System.out.println(Perro.cantidadDePerros);
+        Perro perro3 = new Perro();
+        System.out.println(Perro.cantidadDePerros);
+        System.out.println(Calculadora.sumar(1,2));
+
+        Perro.ClaseAnidada anidada = new Perro.ClaseAnidada();
+        anidada.mostrarMensaje();
 
 
     }
